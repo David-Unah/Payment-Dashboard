@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter',sans-serif;
+    }
+
+body {
+    background-color: #CFD5E4;
+}
+
+img {
+        max-width: 100%;
+        height: auto;
+      }
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+#logo {
+    width: 17px;
+    height: 20px;
+    background: #5D5FEF;
+    border-radius: 5px 0px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 7px;
+}
+
+
+#logo_text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 18px;
+    margin-left: 60px;
+}
+
+#time {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #252525;
+    margin-top: 15px;
+    margin-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+.main_box {
+    width: 95%;
+    height: 1000px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+.heading_links {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-bottom: 22px;
+}
+
+.notify_side {
+    display: flex;
+    
+}
+
+#notify {
+    position: relative;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+#theme {
+    position: relative;
+    top: 13px;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+.headimage {
+    margin: 0px 20px 0px 20px;
+}
+
+/* this is for the 2nd main box */
+
+.main_box2 {
+    display: grid;
+    height: 900px;
+    grid-template-columns: 147px 750px 170px;
+    border: 1px solid black;
+}
+
+.tabs {
+    display: block;
+    height: 35px;   
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #919191;
+}
+
+.tabs:hover {
+    border-right: 4px solid #5D5FEF;
+    color: #5D5FEF;
+}
+
+.tabs:active {
+    border-right: 4px solid #5D5FEF;
+    color: #5D5FEF;
+}
+
+
+
+
+.tab_images {
+    position: relative;
+    top: 5px;
+    margin-right: 7px;
+}
+
+
+
+ /* this is for the middle box  */
+
+ #details_box {
+    border: 1px dotted black;
+ }
+
+
+ .detailsbox_head {
+    display: flex;
+    justify-content: space-between;
+    width: 673px;
+    height: 141px;
+    margin: auto;
+    background: #262F59;
+    color: #FFFFFF;
+    padding: 27px;
+    
+ }
+
+
+ #wallet_bal {
+    position: relative;
+    bottom: 6px;
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+ }
+
+ #amount {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 10px;
+ }
+
+.acct_nav {
+    position: relative;
+    left: 20px;
+    display: flex;
+    margin-top: 7px;
+}
+
+.acct_checkp {
+    position: relative;
+    top: 56px;
+    right: 33px;
+    width: 28px;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 8px;
+}
+
+#addmoney {
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+}
+
+
+ .acct_check {
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 8px;
+ }
+
+#plus {
+    border: 2px dotted white;
+    padding: 16px  11px;
+}
+
+.payment_box {
+    width: 673px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-bottom: 1px solid #D9D9D9;
+    
+}
+
+.payments {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4B4B4B;
+    margin-left: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.payments:hover {
+    color: #5D5FEF;
+    border-bottom: 3px solid #5D5FEF;
+}
+
+
+
+
+#pay  {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #071124;
+}
+
+.payment_type {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4B4B4B;
+}
+
+.companylogo_div  {
+    display: flex;
+    width: 673px; 
+    margin: auto; 
+    margin-top: 25px; 
+    border: 1px solid black; 
+    height: 85px;
+}
+
+
+
+.company_logo  {
+    width: 80px;
+    height: 80px;
+    padding: 16px;
+    margin-right: 17px;
+    background: #F8FAFB;
+    box-shadow: 0px 0px 4px #D9D9D9;
+    
+}
+
+.company_logo:hover  {
+    border: 2px solid #5D5FEF;
+}
+
+#next {
+    position: absolute;
+    top: 63%;
+    left: 67%;
+    padding: 3px;
+}
+
+#next:hover {
+    border: 2px solid #5D5FEF;
+}
+
+#payment_box1 {
+    margin-top: 65px;
+}
+
+.transaction_header {
+    display: flex;
+    justify-content: space-around;
+    width: 673px; 
+    margin: auto;
+    border: 1px solid black;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #919191;
+}
+
+
+
+
+
+
+.transaction_infobox {
+    width: 673px; 
+    margin: auto;
+    height: 80px; 
+    display: flex;
+    background: #F8FAFB;
+    justify-content: space-around;
+    border: 1px solid black; 
+    margin-top: 25px;
+}
+
+.transfer_icon {
+    display: flex;
+    border: 1px solid black; 
+    padding-top: 24px;
+}
+
+.recent_transp {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #252525;
+    margin-left: 10px;
+}
+
+.recenttrans_time {
+    display: block;
+    font-weight: 300;
+    font-size: 6px;
+    line-height: 7px;
+    color: #252525;
+}
+
+
+#secondtranslogo {
+    width: 13px;
+    height: 13px;
+    margin-top: 4px;
+}
+
+.profile {
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #252525;
+}
+
+.money {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF414D;
+}
+
+.status {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+
+}
