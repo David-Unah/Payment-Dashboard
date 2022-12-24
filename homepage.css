@@ -57,9 +57,6 @@ a {
 
 
 
-
-
-
 .main_box {
     width: 95%;
     height: 750px;
@@ -74,7 +71,6 @@ a {
 .heading_links {
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
     margin-bottom: 22px;
 }
 
@@ -110,9 +106,8 @@ a {
 
 .main_box2 {
     display: grid;
-    height: 700px;
-    grid-template-columns: 147px 750px 170px;
-    border: 1px solid black;
+    height: 600px;
+    grid-template-columns: 147px 750px 300px;
 }
 
 .tabs {
@@ -144,14 +139,28 @@ a {
     margin-right: 7px;
 }
 
+#logout  {
+    position: relative;
+    top: 330px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF414D;
+}
+
+
+#logout_image  {
+    position: relative;
+    top: 6px;
+}
 
 
  /* this is for the middle box  */
 
- #details_box {
-    border: 1px dotted black;
- }
-
+#details_box {
+    border-right: 1px solid #D9D9D9;
+    border-left: 1px solid #D9D9D9;
+}
 
  .detailsbox_head {
     display: flex;
@@ -407,6 +416,7 @@ button {
     padding: 6px 20px;
 }
 
+
 /* this is for the third box */
 
 input  {
@@ -485,7 +495,7 @@ input::placeholder {
 
 .this_week  {
     position: relative;
-    left: 143%;
+    left: 65%;
     width: 94px;
     height: 18px;
     font-weight: 500;
@@ -519,9 +529,26 @@ input::placeholder {
     margin-top: 20px;
 }
 
+#totalrevenue  {
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #071124;
+}
+
+
 #two_hundred  {
+    
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
     color: #45B649;
+}
+
+
+#graph  {
+    width: 120%;
+    height: 61.48px;
+    margin-top: 40px;
 }
